@@ -1,0 +1,66 @@
+body{
+display: grid;
+grid-template-areas: "fejlec" "foresz";
+grid-template-rows: max-content 1fr max-content;
+background-color:#2A2562;
+font-size: 13pt;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: white;
+}
+
+main{
+    width: 60%;
+    border-radius: 13px;
+    margin:auto;
+    box-sizing: border-box;
+    padding: 2rem;
+    padding-top: 1rem;
+    background-color:rgba(158, 12, 158);}
+header{
+    font-size: 20pt;
+    grid-area: auto;
+    position: sticky;
+    width: 100%;
+    background-color: white;
+    color: slateblue;
+    }
+.gomb{
+    width: 170px;
+    height: 36px;
+    background: #7D0A80;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 16px;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    font-size: 22px;
+    align-items: center;
+    text-align: center;
+    transition: 1;
+    border-collapse: separate;
+    
+}
+.gomb:hover{
+    cursor: pointer;
+    background-color:rgba(158, 12, 158);}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    box-sizing: border-box;
+    grid-gap: 4rem;
+    margin: 2rem 5%;
+    }
+    
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+	background-color:rgba(158, 12, 158);
+	border-radius: 16px;
+	padding: 1.5rem;
+    gap:1.5rem;
+    }
+.img1{
+    max-width: 50%;
+    max-height: 50%; 
+}
+    
